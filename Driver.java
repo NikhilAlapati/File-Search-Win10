@@ -6,7 +6,7 @@
 public class Driver {
     public static void main(String[] args) throws ItemNotFoundException {
         boolean passed = true;
-        FindFile f = new FindFile(2);
+        FindFile f = new FindFile(1);
         // finds the Program Files folder in my pc which is located in C drive
         f.directorySearch("Windows", "C:\\");
         // prints all the instances
